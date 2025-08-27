@@ -1,10 +1,7 @@
 #WAP to accept a number from 1 to 7 and display the name of the day, like 1 for
-Sunday, 2 for Monday, etc.
-
+#Sunday, 2 for Monday, etc.
 
 day_num = int(input("Enter a number (1-7): "))
-
-
 if day_num == 1:
     print("Sunday")
 elif day_num == 2:
@@ -21,3 +18,4 @@ elif day_num == 7:
     print("Saturday")
 else:
     print("Invalid Input! ")
+
