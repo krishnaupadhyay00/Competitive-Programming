@@ -1,7 +1,8 @@
 #Write a program to print all negative numbers from input array A of size N
 
-N = int(input("Enter size of array: "))
-A = list(map(int, input("Enter elements: ").split()))
-for x in A:
-    if x < 0:
-        print(x)
+N = int(input())
+A = list(map(int, input().split()))
+for num in A:
+    if num < 0:
+        print(num)
+
