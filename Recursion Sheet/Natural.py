@@ -1,0 +1,13 @@
+# Sum of first N natural numbers 
+# Problem: 
+# Write a recursive function to find the sum of the first N natural numbers. 
+
+n = 5
+sum = 0
+
+i = 1
+while i <= n:
+    sum += i
+    i += 1
+
+print(sum)
